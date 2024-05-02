@@ -1,0 +1,215 @@
+.div {
+    background-color: #fff;
+  }
+  .div-2 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 74%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .div-3 {
+    position: relative;
+
+    background-color: var(--Blue, linear-gradient(180deg, #0575e6 0%, #02298a 84.79%, #021b79 100%));
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: start;
+    width: 60%;
+    padding: 80px 80px 0 0;
+    height: 90vh;
+   
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-4 {
+    color: var(--White, #fff);
+    margin: 314px 0 0 145px;
+    font: 700 40px Poppins, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-5 {
+    color: var(--White, #fff);
+    margin: 11px 0 0 145px;
+    font: 500 18px Poppins, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      max-width: 100%;
+    }
+  }
+  .div-6 {
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #03386a94;
+    color: #fff;
+    margin: 25px 0 0 145px;
+    padding: 8px 30px;
+    font: 400 14px Poppins, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      margin-left: 10px;
+      padding: 0 20px;
+    }
+  }
+  
+  .column-2 {
+    display: flex;
+    position:relative;
+    right:40vh;
+    flex-direction: column;
+    line-height: normal;
+    width: 26%;
+    margin-left: 10px;
+  }
+  @media (max-width: 991px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+  .div-9 {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    margin: auto 0;
+    padding: 0 20px;
+  }
+  @media (max-width: 991px) {
+    .div-9 {
+      margin-top: 40px;
+    }
+  }
+  .div-10 {
+    font: 700 26px Poppins, sans-serif;
+  }
+  .div-11 {
+    margin-top: 13px;
+    font: 18px Poppins, sans-serif;
+  }
+  .div-12 {
+    justify-content: center;
+    align-items: start;
+    border-radius: 30px;
+    border-color: rgba(238, 238, 238, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    display: flex;
+    margin-top: 47px;
+    width: 100%;
+    flex-direction: column;
+    padding: 18px 26px;
+  }
+  @media (max-width: 991px) {
+    .div-12 {
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  }
+  .div-13 {
+    display: flex;
+    gap: 8px;
+  }
+  .img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 24px;
+  }
+  .div-14 {
+    font-family: Poppins, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  .div-15 {
+    justify-content: center;
+    align-items: start;
+    border-radius: 30px;
+    border-color: rgba(238, 238, 238, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    display: flex;
+    margin-top: 16px;
+    width: 100%;
+    flex-direction: column;
+    white-space: nowrap;
+    padding: 18px 26px;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-16 {
+    display: flex;
+    gap: 8px;
+  }
+  @media (max-width: 991px) {
+    .div-16 {
+      white-space: initial;
+    }
+  }
+  .div-17 {
+    font-family: Poppins, sans-serif;
+    margin: auto 0;
+  }
+  .div-18 {
+    font-family: Poppins, sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #05315d;
+    margin-top: 16px;
+    color: #fff;
+    white-space: nowrap;
+    padding: 18px 26px;
+  }
+  @media (max-width: 991px) {
+    .div-18 {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-19 {
+    font-family: Poppins, sans-serif;
+    align-self: center;
+    margin-top: 22px;
+  }
+
+  .div33{
+    position:relative;
+    top:-12vh;
+  }

@@ -1,0 +1,391 @@
+.sign-in-page {
+    border-radius: 40px;
+    background-color: #14162e;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    justify-content: center;
+    padding: 80px 60px;
+  }
+  
+  @media (max-width: 991px) {
+    .sign-in-page {
+      flex-wrap: wrap;
+      padding: 0 20px;
+    }
+  }
+  
+  .header {
+    display: flex;
+    margin-top: -79px;
+    width: 100%;
+    max-width: 1523px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .navigation {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    font-size: 17px;
+    letter-spacing: 1.02px;
+    justify-content: space-between;
+    padding: 0 2px;
+  }
+  
+  @media (max-width: 991px) {
+    .navigation {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    font-weight: 500;
+    white-space: nowrap;
+    justify-content: space-between;
+    margin: auto 0;
+  }
+  
+  @media (max-width: 991px) {
+    .nav-links {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+    }
+  }
+  
+  .nav-link {
+    font-family: Gilroy, sans-serif;
+    gap: 0px;
+  }
+  
+  .user-actions {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .language-selector {
+    display: flex;
+    gap: 11px;
+    color: #fff;
+    font-weight: 500;
+    white-space: nowrap;
+    margin: auto 0;
+  }
+  
+  @media (max-width: 991px) {
+    .language-selector {
+      white-space: initial;
+    }
+  }
+  
+  .language {
+    font-family: Gilroy, sans-serif;
+    gap: 0px;
+  }
+  
+  .language-arrow {
+    aspect-ratio: 1.67;
+    object-fit: auto;
+    object-position: center;
+    width: 10px;
+    fill: #fcfdff;
+    align-self: start;
+    gap: 0px;
+  }
+  
+  .sign-in-link {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    gap: 9px;
+  }
+  
+  .sign-in {
+    font-family: Gilroy, sans-serif;
+    gap: 0px;
+    color: #4461f2;
+    font-weight: 700;
+  }
+  
+  .sign-in-underline {
+    border-color: rgba(68, 97, 242, 1);
+    border-style: solid;
+    border-width: 3px;
+    background-color: #4461f2;
+    align-self: center;
+    width: 26px;
+    height: 3px;
+    gap: 0px;
+  }
+  
+  .register-button {
+    font-family: Gilroy, sans-serif;
+    border-radius: 21px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 13px 21px;
+    color: #4461f2;
+    font-weight: 700;
+  }
+  
+  @media (max-width: 991px) {
+    .register-button {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  
+  .hero {
+    display: flex;
+    margin-top: 231px;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 991px) {
+    .hero {
+      max-width: 100%;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .hero-content {
+    align-self: start;
+    display: flex;
+    margin-top: 21px;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: fit-content;
+  }
+  
+  @media (max-width: 991px) {
+    .hero-content {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .hero-title {
+    color: #fff;
+    gap: 0px;
+    font: 700 58px/77px Gilroy, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .hero-title {
+      max-width: 100%;
+      flex-wrap: wrap;
+      font-size: 40px;
+      line-height: 59px;
+    }
+  }
+  
+  .hero-subtitle {
+    color: #4461f2;
+    margin-top: 78px;
+    gap: 0px;
+    font: 500 23px Gilroy, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .hero-subtitle {
+      max-width: 100%;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+  }
+  
+  .white-text {
+    color: rgba(255,255,255,1);
+  }
+  
+  .blue-text {
+    font-weight: 700;
+    color: rgba(68,97,242,1);
+  }
+  
+  .hero-image {
+    aspect-ratio: 1.22;
+    object-fit: auto;
+    object-position: center;
+    width: fit-content;
+    gap: 0px;
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .hero-image {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .sign-in-form {
+    display: flex;
+    margin-top: 4px;
+    flex-direction: column;
+    gap: 17px;
+  }
+  
+  .input-group {
+    border-radius: 69px;
+    background-color: #eaf0f7;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #4f555a;
+    font-weight: 500;
+    letter-spacing: 1.62px;
+    line-height: 428%;
+    padding: 18px 22px;
+    margin: 10px;
+  }
+  
+  @media (max-width: 991px) {
+    .input-group {
+      padding-right: 20px;
+    }
+  }
+  
+  .input-label {
+    font-family: Gilroy, sans-serif;
+    gap: 0px;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  
+  .input-field {
+    font-family: Inter, sans-serif;
+    gap: 0px;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+    border: none;
+    background: transparent;
+    font-size: 26px;
+    color: #667085;
+    font-weight: 400;
+    line-height: 92%;
+  }
+  
+  .input-icon {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 24px;
+    gap: 0px;
+  }
+  
+  .forgot-password {
+    color: #c7c7c7;
+    letter-spacing: 1.4px;
+    align-self: end;
+    margin-top: 17px;
+    gap: 0px;
+    font: 500 14px/550% Gilroy, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .sign-in-button {
+    border-radius: 10px;
+    box-shadow: 0px 12px 21px 4px rgba(68, 97, 242, 0.15);
+    background-color: #4461f2;
+    margin-top: 56px;
+    align-items: center;
+    color: #fff;
+    letter-spacing: 1.71px;
+    justify-content: center;
+    padding: 21px 60px;
+    font: 700 19px/405% Gilroy, -apple-system, Roboto, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 991px) {
+    .sign-in-button {
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  }
+  
+  .separator {
+    display: flex;
+    margin-top: 55px;
+    align-items: center;
+    gap: 18px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1.26px;
+    line-height: 550%;
+    padding: 0 1px;
+  }
+  
+  @media (max-width: 991px) {
+    .separator {
+      margin-top: 40px;
+    }
+  }
+  
+  .separator-line {
+    border-color: rgba(223, 223, 223, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #dfdfdf;
+    align-self: stretch;
+    width: 121px;
+    height: 1px;
+    gap: 0px;
+    margin: auto 0;
+  }
+  
+  .separator-text {
+    font-family: Gilroy, sans-serif;
+    align-self: stretch;
+    gap: 0px;
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+  
+  .social-buttons {
+    display: flex;
+    margin-top: 56px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 991px) {
+    .social-buttons {
+      margin-top: 40px;
+    }
+  }
+  
+  .social-button {
+    aspect-ratio: 1.96;
+    object-fit: auto;
+    object-position: center;
+    width: 117px;
+    max-width: 100%;
+    gap: 0px;
+  }
