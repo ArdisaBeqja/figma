@@ -7,7 +7,7 @@ function Root() {
   const navigate = useNavigate();
   return (
     <div>
-      <button onClick={() => navigate(-1)}>go back</button>
+      {/* <button onClick={() => navigate(-1)}>go back</button> */}
       <Routes>
         <Route path="/" element={<Auth />} />
         <Route path="/manager/:id" element={<ManagerPage />} />

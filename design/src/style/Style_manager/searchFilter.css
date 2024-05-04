@@ -1,0 +1,116 @@
+.containerSearch {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:-182vh;
+    width: 208vh;
+  
+
+  }
+  .user-actions {
+    align-self: end;
+    display: flex;
+    gap: 27px;
+    position: relative;
+    justify-content: space-between;
+    /* margin-top: -1vh; */
+    top: 6vh;
+  }
+  .menu-icon {
+    width: 24px;
+    stroke-width: 1.5px;
+    stroke: var(--Grey-700, #282828);
+    border: 2px solid rgba(40, 40, 40, 1);
+    margin: auto 0;
+  }
+  .user-avatar {
+    width: 66px;
+    border-radius: 50%;
+  }
+  .search-filter {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 45px;
+    width: 100%;
+    gap: 12px;
+    padding: 0 14px;
+  }
+  @media (max-width: 991px) {
+    .search-filter {
+      max-width: 100%;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+  }
+  .search-container {
+    border-radius: 24px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    align-self: start;
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+    color: #000;
+    font-weight: 400;
+    padding: 8px;
+    margin-left: 53vh;
+    margin-top: 3vh;
+    width: 30vh;
+    height: 2vh
+  }
+  .search-icon {
+    width: 24px;
+  }
+  .search-text {
+    font-family: Inter, sans-serif;
+    margin: auto 0;
+  }
+  .actions-container {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: space-between;
+    margin-top: 2vh;
+  }
+  .filter-container {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    background-color: #4a6374;
+    display: flex;
+    gap: 12px;
+    color: var(--Neutral-White, #fff);
+    justify-content: space-between;
+    padding: 12px 18px;
+    height: 2vh;
+  }
+  @media (max-width: 991px) {
+    .filter-container {
+      padding-right: 20px;
+    }
+  }
+  .filter-text {
+    font-family: Inter, sans-serif;
+    margin: auto 0;
+  }
+  .filter-icon {
+    width: 24px;
+  }
+  .download-container {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(74, 99, 116, 1);
+    background-color: #4a6374;
+    display: flex;
+    gap: 12px;
+    color: var(--White, var(--Neutral-White, #fff));
+    padding: 12px 18px;
+    height: 2vh;
+  }
+  .download-text {
+    font-family: Inter, sans-serif;
+    margin: auto 0;
+  }
+  .download-icon {
+    width: 24px;
+  }
