@@ -26,12 +26,16 @@ const Login = () => {
         const data = await response.json(); // Parse the JSON string into an object
      
         if(data.role==="manager"){
-          console.log("manager33");
+         // console.log("manager33");
           navigate(`/manager/${data.id}`);
 
+        }else if (data.role === "admin") {
+          navigate(`/admin/${data.id}`);
+        }else if(data.role === "student"){
+          navigate(`/student/${data.id}`);
         }
         console.log("ardisa");
-        console.log(data.role);
+        console.log(data);
       } 
        else {
         setError("Error logging in. Please try again.");

@@ -1,0 +1,78 @@
+.frame-child {
+    height: 2px;
+    width: 1px;
+    position: absolute;
+    margin: 0 !important;
+    top: 307px;
+    left: 580px;
+    object-fit: contain;
+  }
+  .circle-shape {
+    position: absolute;
+    top: -58px;
+    left: 0;
+    background: linear-gradient(1.29deg, rgba(217, 217, 217, 0), #4a6374);
+    width: 1440px;
+    height: 187px;
+  }
+  .iconoirbell-notification {
+    position: absolute;
+    top: 58px;
+    left: 1259px;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .bell-notification-icon-child {
+    position: absolute;
+    top: 36px;
+    left: 1309px;
+    border-radius: 50%;
+    width: 66px;
+    height: 65px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .bell-notification-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 129px;
+  }
+  .frame-parent {
+   /* height: 990px; */
+   height: 100vh;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .line-parent,
+  .prove {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .line-parent {
+    align-self: stretch;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .prove {
+    width: 100%;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  
+
+  .frame-parent {
+    /* Other styles */
+    max-width: 100%; /* Use the full width of the parent */
+  }
+
+  

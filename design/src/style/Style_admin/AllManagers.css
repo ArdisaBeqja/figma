@@ -1,0 +1,1123 @@
+.span {
+    color: var(--maintext);
+    white-space: pre-wrap;
+  }
+  .span,
+  .span1,
+  .span2 {
+    font-family: var(--h1);
+  }
+  .span1 {
+    font-weight: 600;
+    color: var(--color-black);
+  }
+  .span2 {
+    color: var(--maintext);
+    white-space: pre-wrap;
+  }
+  .txt {
+    width: 100%;
+  }
+  .div,
+  .next,
+  .prev {
+    position: absolute;
+    top: 908px;
+    left: 681px;
+    font-size: var(--h1-size);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 395.7px;
+  }
+  .next,
+  .prev {
+    left: 598px;
+    font-family: var(--h1);
+    color: var(--maintext);
+    width: 44.4px;
+  }
+  .next {
+    left: 1111.4px;
+    width: 52.7px;
+  }
+  .frameChild,
+  .frameItem {
+    position: absolute;
+    left: 0;
+  }
+  .frameChild {
+    top: 145.2px;
+    background-color: var(--color-slategray);
+    width: 289.4px;
+    height: 66px;
+  }
+  .frameItem {
+    top: 0;
+    border-radius: var(--br-11xl);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .allManagers {
+    position: absolute;
+    top: 23px;
+    left: 83.8px;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    width: 116.3px;
+    height: 22px;
+    min-width: 116.3px;
+    z-index: 2;
+  }
+  .iconProfile2user,
+  .vectorParent {
+    position: absolute;
+    top: 23px;
+    left: 29px;
+    width: 23px;
+    height: 24px;
+    z-index: 2;
+  }
+  .vectorParent {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--white);
+    top: 145px;
+    left: 34px;
+    border-radius: var(--br-11xl);
+    width: 289px;
+    height: 66px;
+    z-index: 1;
+  }
+  .kosherjaLabelTechChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0 var(--br-11xl) var(--br-11xl) 0;
+    background-color: var(--color-slategray);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .kosherja {
+    margin: 0;
+    position: absolute;
+    top: 54px;
+    left: 105px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+    color: var(--white);
+    text-align: left;
+    z-index: 2;
+  }
+  .kosherjaLabelTech,
+  .logoutButtonTechChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0 var(--br-11xl) var(--br-11xl) 0;
+    background-color: var(--color-slategray);
+    width: 323px;
+    height: 145.2px;
+  }
+  .logoutButtonTechChild {
+    height: 100%;
+    bottom: 0;
+  }
+  .furniturebedIcon,
+  .rooms {
+    position: absolute;
+    z-index: 2;
+  }
+  .rooms {
+    top: 165.8px;
+    left: 120.3px;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    width: 217px;
+  }
+  .furniturebedIcon {
+    top: 161.8px;
+    left: 59px;
+    width: 24px;
+    height: 24px;
+  }
+  .addManager {
+    position: absolute;
+    top: 38.8px;
+    left: 120.3px;
+    width: 217px;
+    z-index: 2;
+  }
+  .addManager,
+  .buildings,
+  .settings {
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+  }
+  .buildings {
+    position: absolute;
+    top: 101.8px;
+    left: 120.3px;
+    width: 217px;
+    z-index: 2;
+  }
+  .settings {
+    top: 297.8px;
+    left: 119.8px;
+    width: 87.9px;
+    height: 22px;
+  }
+  .logout,
+  .logoutIcon1,
+  .settings {
+    position: absolute;
+    z-index: 2;
+  }
+  .logoutIcon1 {
+    top: 687.5px;
+    left: 82.7px;
+    width: 15.9px;
+    height: 18.7px;
+    overflow: hidden;
+  }
+  .logout {
+    top: 685.3px;
+    left: 139.5px;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    width: 76.2px;
+    height: 22px;
+  }
+  .bankingFinancechartbars,
+  .survey {
+    position: absolute;
+    top: 232.8px;
+    left: 61px;
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+  }
+  .survey {
+    top: 234.8px;
+    left: 120px;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    width: 60.7px;
+    height: 22px;
+    min-width: 60.7px;
+  }
+  .buildingsLandmarksbuilding {
+    position: absolute;
+    top: 100.8px;
+    left: 61px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    z-index: 2;
+  }
+  .essentialsgearIcon,
+  .softwareaddLayerIcon {
+    position: absolute;
+    top: 39.8px;
+    left: 61px;
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+  }
+  .essentialsgearIcon {
+    top: 297.8px;
+    overflow: hidden;
+  }
+  .logoutButtonTech,
+  .rectangleParent {
+    position: absolute;
+    top: 211.2px;
+    left: 0;
+    width: 337.3px;
+    height: 778.8px;
+  }
+  .rectangleParent {
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    width: 323px;
+    z-index: 1;
+  }
+  .tableTemplateTechChild {
+    position: absolute;
+    top: -58px;
+    left: 0;
+    background: linear-gradient(1.29deg, rgba(217, 217, 217, 0), #4a6374);
+    width: 1440px;
+    height: 187px;
+  }
+  .iconoirbellNotification {
+    position: absolute;
+    top: 58px;
+    left: 1259px;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .subContentsTech {
+    position: absolute;
+    top: 36px;
+    left: 1309px;
+    border-radius: 50%;
+    width: 66px;
+    height: 65px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .tableTemplateTech {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 129px;
+  }
+  .frameInner,
+  .groupIcon {
+    position: absolute;
+    top: 917px;
+    left: 575.1px;
+    width: 15px;
+    height: 7.4px;
+  }
+  .groupIcon {
+    left: 1161.1px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .searchIconTech,
+  .vectorIcon {
+    position: absolute;
+    top: 945px;
+    left: 375px;
+    width: 1008px;
+    height: 1px;
+  }
+  .vectorIcon {
+    left: 770px;
+    width: 18.8px;
+    height: 0;
+    z-index: 1;
+  }
+  .frameParent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .rectangleDiv {
+    height: 602px;
+    width: 1013px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-17xl);
+    background-color: var(--white);
+    display: none;
+    max-width: 100%;
+  }
+  .filterInstanceTechChild {
+    height: 2px;
+    width: 1px;
+    position: absolute;
+    margin: 0 !important;
+    top: 62px;
+    left: 199px;
+    object-fit: contain;
+  }
+  .box {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 8px);
+    border-radius: var(--corner-50);
+    background-color: var(--white);
+    border: 1px solid var(--neutral-200);
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+  }
+  .checkbox {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    display: none;
+  }
+  .headerTitle {
+    flex: 1;
+    position: relative;
+    font-size: var(--body-small-highlight-size);
+    line-height: 16px;
+    font-weight: 600;
+    font-family: var(--body-small-highlight);
+    color: var(--text-primary);
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .column,
+  .headerCell {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .headerCell {
+    align-self: stretch;
+    background-color: var(--white);
+    flex-direction: row;
+    align-items: center;
+    padding: var(--spacing-200);
+    gap: var(--gap-5xs);
+  }
+  .column {
+    flex: 1;
+    background-color: var(--neutral-200);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-12xs);
+    min-width: 151px;
+  }
+  .box1 {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 8px);
+    border-radius: var(--corner-501);
+    background-color: var(--white);
+    border: 1px solid var(--neutral-200);
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+  }
+  .checkbox1 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    display: none;
+  }
+  .headerTitle1 {
+    flex: 1;
+    position: relative;
+    font-size: var(--body-small-highlight-size);
+    line-height: 16px;
+    font-weight: 600;
+    font-family: var(--body-small-highlight);
+    color: var(--text-primary);
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .headerCell1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--spacing-200);
+    background-color: var(--white);
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .link {
+    flex: 1;
+    position: relative;
+    font-size: var(--h1-size);
+    line-height: 20px;
+    font-family: var(--body-small-highlight);
+    color: var(--text-primary);
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .tableCell {
+    align-self: stretch;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--spacing-250) var(--spacing-200);
+  }
+  .link1 {
+    flex: 1;
+    position: relative;
+    font-size: var(--h1-size);
+    line-height: 20px;
+    font-family: var(--body-small-highlight);
+    color: var(--text-primary);
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .tableCell1 {
+    align-self: stretch;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--spacing-250) var(--spacing-200);
+  }
+  .link2 {
+    flex: 1;
+    position: relative;
+    font-size: var(--h1-size);
+    line-height: 20px;
+    font-family: var(--body-small-highlight);
+    color: var(--text-primary);
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .tableCell2 {
+    align-self: stretch;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--spacing-250) var(--spacing-200);
+  }
+  .link3 {
+    flex: 1;
+    position: relative;
+    font-size: var(--h1-size);
+    line-height: 20px;
+    font-family: var(--body-small-highlight);
+    color: var(--text-primary);
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .tableCell3 {
+    align-self: stretch;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--spacing-250) var(--spacing-200);
+  }
+  .link4 {
+    flex: 1;
+    position: relative;
+    font-size: var(--h1-size);
+    line-height: 20px;
+    font-family: var(--body-small-highlight);
+    color: var(--text-primary);
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .tableCell4 {
+    align-self: stretch;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--spacing-250) var(--spacing-200);
+  }
+  .link5 {
+    flex: 1;
+    position: relative;
+    font-size: var(--h1-size);
+    line-height: 20px;
+    font-family: var(--body-small-highlight);
+    color: var(--text-primary);
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .tableCell5 {
+    align-self: stretch;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--spacing-250) var(--spacing-200);
+  }
+  .link6 {
+    flex: 1;
+    position: relative;
+    font-size: var(--h1-size);
+    line-height: 20px;
+    font-family: var(--body-small-highlight);
+    color: var(--text-primary);
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .tableCell6 {
+    align-self: stretch;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--spacing-250) var(--spacing-200);
+  }
+  .link7 {
+    flex: 1;
+    position: relative;
+    font-size: var(--h1-size);
+    line-height: 20px;
+    font-family: var(--body-small-highlight);
+    color: var(--text-primary);
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .tableCell7 {
+    align-self: stretch;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--spacing-250) var(--spacing-200);
+  }
+  .link8 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    font-size: var(--h1-size);
+    text-decoration: underline;
+    line-height: 20px;
+    font-family: var(--body-small-highlight);
+    color: var(--link-default);
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .tableCell8 {
+    align-self: stretch;
+    height: 60px;
+    background-color: var(--white);
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--spacing-250) var(--spacing-200);
+    box-sizing: border-box;
+  }
+  .link9 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    font-size: var(--h1-size);
+    text-decoration: underline;
+    line-height: 20px;
+    font-family: var(--body-small-highlight);
+    color: var(--link-default);
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .column1,
+  .tableCell9 {
+    justify-content: flex-start;
+  }
+  .tableCell9 {
+    align-self: stretch;
+    height: 60px;
+    background-color: var(--white);
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--spacing-250) var(--spacing-200);
+    box-sizing: border-box;
+  }
+  .column1 {
+    width: 101px;
+    background-color: var(--neutral-200);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-12xs);
+  }
+  .box2 {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 8px);
+    border-radius: var(--corner-501);
+    background-color: var(--white);
+    border: 1px solid var(--neutral-200);
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+  }
+  .checkbox2 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    display: none;
+  }
+  .headerTitle2 {
+    flex: 1;
+    position: relative;
+    font-size: var(--body-small-highlight-size);
+    line-height: 16px;
+    font-weight: 600;
+    font-family: var(--body-small-highlight);
+    color: var(--text-primary);
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .headerCell2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--spacing-200);
+    box-sizing: border-box;
+    gap: var(--gap-5xs);
+  }
+  .cellActionButton,
+  .cellActionButton1 {
+    position: absolute;
+    top: 65px;
+    left: 16px;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+  }
+  .cellActionButton1 {
+    left: 52px;
+  }
+  .infoIcon {
+    position: absolute;
+    top: 67px;
+    left: 88px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .cellActionButton2,
+  .cellActionButton3 {
+    position: absolute;
+    top: 126px;
+    left: 16px;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+  }
+  .cellActionButton3 {
+    left: 52px;
+  }
+  .infoIcon1 {
+    position: absolute;
+    top: 128px;
+    left: 88px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .cellActionButton4,
+  .cellActionButton5 {
+    position: absolute;
+    top: 187px;
+    left: 16px;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+  }
+  .cellActionButton5 {
+    left: 52px;
+  }
+  .infoIcon2 {
+    position: absolute;
+    top: 189px;
+    left: 88px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .cellActionButton6,
+  .cellActionButton7 {
+    position: absolute;
+    top: 248px;
+    left: 16px;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+  }
+  .cellActionButton7 {
+    left: 52px;
+  }
+  .cellActionButton10,
+  .cellActionButton8,
+  .cellActionButton9 {
+    position: absolute;
+    top: 248px;
+    left: 88px;
+    width: 28px;
+    height: 28px;
+  }
+  .cellActionButton10,
+  .cellActionButton9 {
+    top: 309px;
+    left: 16px;
+    object-fit: cover;
+  }
+  .cellActionButton10 {
+    left: 52px;
+  }
+  .cellActionButton11,
+  .cellActionButton12,
+  .cellActionButton13 {
+    position: absolute;
+    top: 309px;
+    left: 88px;
+    width: 28px;
+    height: 28px;
+  }
+  .cellActionButton12,
+  .cellActionButton13 {
+    top: 370px;
+    left: 16px;
+    object-fit: cover;
+  }
+  .cellActionButton13 {
+    left: 52px;
+  }
+  .infoIcon3 {
+    position: absolute;
+    top: 372px;
+    left: 88px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .cellActionButton14,
+  .cellActionButton15 {
+    position: absolute;
+    top: 431px;
+    left: 16px;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+  }
+  .cellActionButton15 {
+    left: 52px;
+  }
+  .infoIcon4 {
+    position: absolute;
+    top: 433px;
+    left: 88px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .cellActionButton16,
+  .cellActionButton17 {
+    position: absolute;
+    top: 492px;
+    left: 16px;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+  }
+  .cellActionButton17 {
+    left: 52px;
+  }
+  .infoIcon5 {
+    position: absolute;
+    top: 494px;
+    left: 88px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .cellActionButton18,
+  .cellActionButton19,
+  .cellActionButton20 {
+    height: 28px;
+    width: 28px;
+    position: relative;
+    flex-shrink: 0;
+    object-fit: cover;
+    min-height: 28px;
+  }
+  .tableCell10 {
+    position: absolute;
+    top: 537px;
+    left: 0;
+    background-color: var(--white);
+    width: 240px;
+    overflow-x: auto;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--spacing-200);
+    box-sizing: border-box;
+    gap: var(--spacing-100);
+  }
+  .cellActionButton21,
+  .cellActionButton22,
+  .cellActionButton23 {
+    height: 28px;
+    width: 28px;
+    position: relative;
+    flex-shrink: 0;
+    object-fit: cover;
+    min-height: 28px;
+  }
+  .tableCell11 {
+    position: absolute;
+    top: 598px;
+    left: 0;
+    background-color: var(--white);
+    width: 240px;
+    overflow-x: auto;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--spacing-200);
+    box-sizing: border-box;
+    gap: var(--spacing-100);
+  }
+  .column2 {
+    height: 536px;
+    width: 136px;
+    position: relative;
+    background-color: var(--neutral-200);
+  }
+  .filterInstanceTech,
+  .rectangleGroup,
+  .tableContentTemplate {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .tableContentTemplate {
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    z-index: 1;
+  }
+  .filterInstanceTech,
+  .rectangleGroup {
+    justify-content: flex-start;
+  }
+  .filterInstanceTech {
+    flex: 1;
+    position: relative;
+  }
+  .rectangleGroup {
+    position: absolute;
+    top: 216px;
+    left: 361px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-17xl);
+    background-color: var(--white);
+    width: 1013px;
+    padding: 29px 13px 37px var(--padding-xl);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .iconSearchMagnifyingGlass {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .search1 {
+    width: calc(100% - 202px);
+    border: 0;
+    outline: 0;
+    font-family: var(--h1);
+    font-size: var(--body-small-highlight-size);
+    background-color: transparent;
+    height: 15px;
+    flex: 1;
+    position: relative;
+    color: rgba(0, 0, 0, 0.3);
+    text-align: left;
+    display: inline-block;
+    min-width: 24px;
+    padding: 0;
+  }
+  .search {
+    width: 250px;
+    margin: 0 !important;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    border-radius: 24px;
+    background-color: var(--white);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) 170px var(--padding-5xs) var(--padding-5xs);
+    box-sizing: border-box;
+    gap: var(--gap-5xs);
+  }
+  .download {
+    position: relative;
+    font-size: var(--h1-size);
+    font-weight: 600;
+    font-family: var(--h1);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 35px;
+  }
+  .filterIcon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+  }
+  .buttons,
+  .tool {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .tool {
+    height: 21px;
+    border-radius: var(--corner-50);
+    justify-content: center;
+    padding: 0 1.5px;
+    box-sizing: border-box;
+  }
+  .buttons {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs) var(--padding-xl) var(--padding-3xs) 18px;
+    background-color: var(--color-slategray);
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    left: 710px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-xl);
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .download1 {
+    position: relative;
+    font-size: var(--h1-size);
+    font-weight: 600;
+    font-family: var(--h1);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 68px;
+  }
+  .downloadCloudIcon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .buttons1,
+  .header2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-xs);
+  }
+  .buttons1 {
+    cursor: pointer;
+    border: 1.4px solid var(--color-slategray);
+    padding: 7px 17px;
+    background-color: var(--color-slategray);
+    margin: 0 !important;
+    top: 0;
+    left: 843px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-xl);
+    justify-content: flex-start;
+  }
+  .buttons1:hover {
+    background-color: var(--color-lightslategray);
+    border: 1.4px solid var(--color-lightslategray);
+    box-sizing: border-box;
+  }
+  .header2 {
+    top: 146px;
+    left: 375px;
+    width: 999px;
+    height: 41px;
+    justify-content: flex-end;
+    padding: 0 var(--padding-base) 0 var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .allManagersMain {
+    margin: 0;
+    width: 100%;
+    height: 990px;
+    background-color: var(--white);
+    overflow: hidden;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 825px) {
+    .kosherja {
+      font-size: 26px;
+    }
+    .allManagersMain {
+      height: auto;
+      min-height: 990;
+    }
+  }

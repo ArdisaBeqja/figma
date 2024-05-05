@@ -1,0 +1,233 @@
+.box4 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+  border-radius: var(--corner-50);
+  background-color: var(--surface-default);
+  border: 1px solid var(--neutral-200);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.checkbox4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  display: none;
+}
+.header-title3 {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.header-cell3 {
+  align-self: stretch;
+  background-color: var(--surface-default);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--spacing-200);
+  gap: var(--gap-5xs);
+  font-size: var(--body-small-highlight-size);
+}
+.link10 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table-cell13 {
+  align-self: stretch;
+  background-color: var(--surface-default);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--spacing-250) var(--spacing-200);
+}
+.link11 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table-cell14 {
+  align-self: stretch;
+  background-color: var(--surface-default);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--spacing-250) var(--spacing-200);
+}
+.link12 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table-cell15 {
+  align-self: stretch;
+  background-color: var(--surface-default);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--spacing-250) var(--spacing-200);
+  color: var(--color-gray-100);
+}
+.link13 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table-cell16 {
+  align-self: stretch;
+  background-color: var(--surface-default);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--spacing-250) var(--spacing-200);
+}
+.link14 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table-cell17 {
+  align-self: stretch;
+  background-color: var(--surface-default);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--spacing-250) var(--spacing-200);
+}
+.link15 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table-cell18 {
+  align-self: stretch;
+  background-color: var(--surface-default);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--spacing-250) var(--spacing-200);
+}
+.link16 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table-cell19 {
+  align-self: stretch;
+  background-color: var(--surface-default);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--spacing-250) var(--spacing-200);
+}
+.link17 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table-cell20 {
+  align-self: stretch;
+  background-color: var(--surface-default);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--spacing-250) var(--spacing-200);
+}
+.link18 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table-cell21 {
+  align-self: stretch;
+  height: 60px;
+  background-color: var(--surface-default);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--spacing-250) var(--spacing-200);
+  box-sizing: border-box;
+  color: var(--link-default);
+}
+.link19 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.column3,
+.table-cell22 {
+  justify-content: flex-start;
+}
+.table-cell22 {
+  align-self: stretch;
+  height: 60px;
+  background-color: var(--surface-default);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--spacing-250) var(--spacing-200);
+  box-sizing: border-box;
+  color: var(--link-default);
+}
+.column3 {
+  width: 197px;
+  background-color: var(--neutral-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-12xs);
+  text-align: left;
+  font-size: var(--link-medium-size);
+  color: var(--text-primary);
+  font-family: var(--body-small-highlight);
+}
