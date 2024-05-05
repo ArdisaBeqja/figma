@@ -51,5 +51,6 @@
     box-sizing: border-box;
     line-height: normal;
     letter-spacing: normal;
+    height: 100vh;
   }
   

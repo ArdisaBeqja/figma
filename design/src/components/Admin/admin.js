@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
-//import ManagersList from "./fetch_managers";
-import Prove from "./Prove";
+import ManagersList from "./fetch_managers";
+
+import '../../style/Style_manager/mainManager.css';
+import AddManagerAdmin from "./provaNavAdmin";
+import Header from "./headerAdmin";
+
 //import  "../../style/Style_admin/global.css";
 
 //all the functions of the admin - here
@@ -26,10 +30,12 @@ const AdminPage = () => {
 
   return (
     <div>
+      <AddManagerAdmin/>;
+     <Header/>;
 
       {error && <div className="error">{error}</div>}
-      {/* <ManagersList managers={managers} /> */}
-      <Prove/>
+      <ManagersList managers={managers} />
+    
     </div>
   );
 };

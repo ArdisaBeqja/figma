@@ -1,7 +1,6 @@
-import TableCell from "./TableCell";
-import Column from "./Column";
+
 import styles from "../../style/Style_admin/AllManagers.css";
-import ManagersList from "./fetch_managers.js";
+import ManagersList from "./fetch_managers";
 
 
 const AllManagersMain = () => {

@@ -4,7 +4,7 @@
     left: 0;
     background-color: var(--color-slategray);
     width: 257.4px;
-    height: 66px;
+    height: 100vh;
     z-index: 1;
   }
   .manager-info-child {
@@ -76,7 +76,8 @@
     left: 0;
     border-radius: 0 var(--br-11xl) var(--br-11xl) 0;
     background-color: var(--color-slategray);
-    width: 294px;
+    width: 20%;
+    height: 100vh;
 
   }
   .manager-name {
@@ -88,7 +89,7 @@
     .navigation-background {
       /* height: 10vh; */
       position: fixed;
-      height: 99.99vh;
+      height: 100vh;
   
   }
   .furniturebed-icon,
@@ -142,15 +143,14 @@
     z-index: 4;
   }
   .logout-icon-1 {
-    top: 661.3px;
-    left: 82.7px;
+  top: 450px;
+  left: 65px;
     width: 15.9px;
     height: 18.7px;
     overflow: hidden;
   }
   .logout {
-    top: 693.1px;
-    left: 139.5px;
+    
     font-weight: 500;
     display: inline-block;
     width: 76.2px;
@@ -202,14 +202,16 @@
     top: 195.4px;
     left: 0;
     width: 337.3px;
-    height: 778.8px;
+    height: 100vh;
   }
    .rectangle-parent {
     top: -1px;
-    width: 323px;
-    height: 10px;
+    left: 15px;
+    width: 370px;
+    height: 100vh;
     z-index: 1;
     text-align: left;
+  
     font-size: var(--font-size-base);
     color: var(--color-white);
     font-family: var(--font-montserrat);
@@ -235,9 +237,11 @@
     color: white; /* Set the text color */
     font-family: 'Montserrat', sans-serif; 
     position: relative;
-    left:-20px;
-    top:-30px;
+    left:114px;
+    top:450px;
 }
+
+
 
 /* ------------------- */
 
