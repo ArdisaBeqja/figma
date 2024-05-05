@@ -1,0 +1,55 @@
+.notifications-child {
+    position: absolute;
+    top: -58px;
+    left: 0;
+    background: linear-gradient(1.29deg, rgba(217, 217, 217, 0), #4a6374);
+    width: 1530px;
+    height: 187px;
+  }
+  .iconoirbell-notification {
+    position: absolute;
+    top: 58px;
+    left: 1259px;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .profile-picture-icon {
+    position: absolute;
+    top: 36px;
+    left: 1309px;
+    border-radius: 50%;
+    width: 66px;
+    height: 65px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .notifications {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 129px;
+  }
+  .main-interface {
+    height: 982.2px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .add-manager {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 7.8px;
+    box-sizing: border-box;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  

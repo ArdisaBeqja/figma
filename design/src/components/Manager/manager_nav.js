@@ -22,7 +22,7 @@ const menuItems = [
 
 function Nav_manager() {
   return (
-    <>
+  
       
       
       <div className="container_nav_manager">
@@ -42,11 +42,8 @@ function Nav_manager() {
         </nav>
         
         <div className="logout-section">
-          <IconImage src="https://cdn.builder.io/api/v1/image/assets/TEMP/9e3b6a2fac86093df23a62c4f5d8feacd35e1287b24c48cb1f37e2b587ce514d?apiKey=15159d1f3bfe4fe7a8efb0b9cf40f3e0&" alt="Logout icon" className="logout-icon" />
-          <div className="logout-label">Logout</div>
         </div>
       </div>
-    </>
   );
 }
 export default Nav_manager;

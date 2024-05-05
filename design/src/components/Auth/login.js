@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const [error, setError] = useState(null);
+
   const navigate = useNavigate();
 
   const handleLogin = async (event) => {
@@ -11,7 +12,8 @@ const Login = () => {
     const formData = new FormData(event.target);
   
     try {
-      const response = await fetch("http://localhost:8080/api/login", {
+      const response = await fetch("http://localhost:8080/api/login", 
+      {
         method: "POST",
         body: JSON.stringify({
           username: formData.get("text"),
@@ -45,6 +47,10 @@ const Login = () => {
     }
   }
   
+
+
+
+
 
   return (
     <main className="sign-in-form">
