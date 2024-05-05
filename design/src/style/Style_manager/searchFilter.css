@@ -4,7 +4,7 @@
     position: relative;
     top:-182vh;
     width: 208vh;
-  
+   
 
   }
   .user-actions {
@@ -13,7 +13,6 @@
     gap: 27px;
     position: relative;
     justify-content: space-between;
-    /* margin-top: -1vh; */
     top: 6vh;
   }
   .menu-icon {
@@ -90,7 +89,6 @@
     }
   }
   .filter-text {
-    font-family: Inter, sans-serif;
     margin: auto 0;
   }
   .filter-icon {
@@ -108,7 +106,6 @@
     height: 2vh;
   }
   .download-text {
-    font-family: Inter, sans-serif;
     margin: auto 0;
   }
   .download-icon {

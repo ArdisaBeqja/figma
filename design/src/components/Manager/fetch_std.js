@@ -5,6 +5,7 @@ function StudentList({managerId}){
     useEffect(() => {
         const fetchStudents = async () => {
             try {
+             
                 const response = await fetch(`http://localhost:8080/api/manager/${managerId}/getAllStd`);
                 if (!response.ok) {
                     throw new Error('Failed to fetch students');

@@ -1,0 +1,60 @@
+.box1 {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 8px);
+    border-radius: var(--corner-502);
+    background-color: var(--white);
+    border: 1px solid var(--neutral-200);
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+  }
+  .checkbox4 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    display: none;
+  }
+  .avatar-icon {
+    height: 36px;
+    width: 36px;
+    position: relative;
+    object-fit: contain;
+    min-height: 36px;
+  }
+  .cell-content,
+  .sub-content {
+    align-self: stretch;
+    position: relative;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .sub-content {
+    font-size: var(--body-small-default-size);
+    line-height: 16px;
+    color: var(--text-tertiary);
+  }
+  .employee-data {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .table-cell12 {
+    align-self: stretch;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--spacing-150) var(--spacing-200);
+    gap: var(--spacing-100);
+    text-align: left;
+    font-size: var(--h1-size);
+    color: var(--text-secondary);
+    font-family: var(--link-medium);
+  }
+  
